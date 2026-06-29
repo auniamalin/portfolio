@@ -1162,3 +1162,280 @@ nav ul li a:hover{
     transform:translateY(-8px);
 
 }
+
+/* ========================================
+   RESPONSIVE - TABLET
+======================================== */
+
+@media (max-width:1024px){
+
+    section{
+        padding:80px 6%;
+    }
+
+    #about,
+    #projects,
+    #contact{
+        padding:80px 6%;
+    }
+
+    nav{
+        padding:20px 6%;
+    }
+
+    #intro{
+        gap:60px;
+    }
+
+    .intro-title,
+    .typing-name{
+        font-size:3rem;
+    }
+
+    .intro-right img{
+        max-width:450px;
+        height:580px;
+    }
+
+    .projects-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE
+======================================== */
+
+@media (max-width:768px){
+
+    nav{
+
+        flex-direction:column;
+
+        gap:18px;
+
+        padding:18px 24px;
+
+    }
+
+    nav ul{
+
+        gap:18px;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    html{
+        font-size:15px;
+    }
+
+    section{
+        padding:70px 24px;
+    }
+
+    #intro{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+        gap:45px;
+
+        padding-top:140px;
+
+    }
+
+    #about,
+    #projects,
+    #contact{
+        padding:70px 24px;
+    }
+
+    .hero-name{
+
+        flex-direction:column;
+
+        gap:8px;
+
+        align-items:center;
+
+    }
+
+    .intro-title,
+    .typing-name{
+
+        font-size:2.4rem;
+
+    }
+
+    .profession{
+
+        font-size:.95rem;
+
+    }
+
+    .intro-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .intro-buttons a{
+
+        width:220px;
+
+    }
+
+    .intro-right{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .intro-right img{
+
+        max-width:320px;
+
+        height:auto;
+
+    }
+
+    .social-icons{
+
+        position:static;
+
+        transform:none;
+
+        flex-direction:row;
+
+        margin-top:25px;
+
+    }
+
+    .cv-btn{
+
+        position:static;
+
+        margin-top:20px;
+
+    }
+
+    .about-container{
+
+        flex-direction:column;
+
+        gap:35px;
+
+    }
+
+    .about-info{
+
+        margin-left:0;
+
+    }
+
+    .status-row{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:15px;
+
+    }
+
+    .timeline-wrapper{
+
+        flex-direction:column;
+
+        gap:45px;
+
+    }
+
+    .title-row{
+
+        flex-direction:column;
+
+        gap:5px;
+
+    }
+
+    .timeline-date{
+
+        white-space:normal;
+
+    }
+
+    .projects-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .project-image img{
+
+        height:240px;
+
+    }
+
+    .contact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .contact-card{
+
+        padding:20px;
+
+    }
+
+    .resume-btn{
+
+        width:100%;
+
+    }
+
+    .footer{
+
+        padding:25px;
+
+    }
+
+    .modal{
+
+        padding:15px;
+
+    }
+
+    .modal-content{
+
+        width:100%;
+
+        padding:25px;
+
+    }
+
+    .modal-grid{
+
+        flex-direction:column;
+
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+}
