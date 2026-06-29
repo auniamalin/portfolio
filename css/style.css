@@ -261,15 +261,13 @@ nav ul li a:hover{
     display: flex;
     gap: 60px;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0;
     align-items: flex-start;
 }
 
 /* intro text */
 .about-text {
     max-width: 850px;
-    margin-left: -40px;      
-    margin-right: auto;
     text-align: justify;
     flex: 1;
 }
